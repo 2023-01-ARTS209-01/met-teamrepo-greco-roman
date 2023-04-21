@@ -4,15 +4,23 @@ using UnityEngine;
 
 public class ImagePresenter : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    //public void DisableBoolAnimator(Animator anim)
+    //{
+        //anim.SetBool("IsDisplayed", false);
+    //}
+
+    public void DisableBoolAnimator(Animator anim)
     {
-        
+        anim.SetBool("IsDisplayed", true);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void NavigateTo(int scene)
     {
-        
+        Application.LoadLevel(scene);
+    }
+
+    public void Exitgame()
+    {
+        Application.Quit();
     }
 }
