@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class MetPlayerController : MonoBehaviour
 {
-    [SerializeField] private float horizontalSpeed = 1f; //Changing this value INVERTS the controls
-    [SerializeField] private float verticalSpeed = 1f;
+    [SerializeField] private float horizontalSpeed = 10f; //Changing this value INVERTS the controls
+    [SerializeField] private float verticalSpeed = 2.5f;
 
     // Start is called before the first frame update
     void Start()
