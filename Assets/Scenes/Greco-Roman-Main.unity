@@ -181,7 +181,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: This is a dialogue box.  Please put a description of an exhibit here, and
+    feel free to copy the entire game object!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1528,9 +1529,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 418ccda5df031d849b1be51d1d52baa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textComponent: {fileID: 0}
-  lines: []
-  textSpeed: 0
+  textComponent: {fileID: 43245430}
+  lines:
+  - Exhibit Name
+  - Exhibit Description
+  textSpeed: 0.3
 --- !u!1 &809270641
 GameObject:
   m_ObjectHideFlags: 0
