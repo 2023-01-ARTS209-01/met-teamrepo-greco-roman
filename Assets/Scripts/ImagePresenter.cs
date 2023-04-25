@@ -17,25 +17,25 @@ public class ImagePresenter : MonoBehaviour
             //anim.SetBool("IsDisplayed", false);
             //}
 
-            public void DisableBoolAnimator(Animator anim)
-            {
-                anim.SetBool("IsDisplayed", true);
-            }
+            //public void DisableBoolAnimator(Animator anim)
+            //{
+                //anim.SetBool("IsDisplayed", true); Animation needs to be added.  Once added, this can be uncommented.
+            //}
 
-            public void NavigateTo(int scene)
-            {
-                Application.LoadLevel(scene);
-            }
+            //public void NavigateTo(int scene)
+            //{
+                //Application.LoadLevel(scene); Scene needs to be added - if I'm understanding it correctly.  Once added, this can be uncommented.
+            //}
         }
 
         if (trigger.gameObject.CompareTag("Environment") && !atExhibit)
         {
             atExhibit = false;
 
-            public void Exitgame()
-            {
+            //public void Exitgame()
+            //{
                 Application.Quit();
-            }
+            //}
         }
     }
 }
