@@ -4,23 +4,38 @@ using UnityEngine;
 
 public class ImagePresenter : MonoBehaviour
 {
-    //public void DisableBoolAnimator(Animator anim)
-    //{
-        //anim.SetBool("IsDisplayed", false);
-    //}
-
-    public void DisableBoolAnimator(Animator anim)
+    private bool atExhibit = false;
+    
+    private void OnTriggerEnter2D(Collider2D trigger)
     {
-        anim.SetBool("IsDisplayed", true);
-    }
+        if (trigger.gameObject.CompareTag("Exhibit") && atExhibit)
+        {
+            atExhibit = true;
 
-    public void NavigateTo(int scene)
-    {
-        Application.LoadLevel(scene);
-    }
+            //public void DisableBoolAnimator(Animator anim)
+            //{
+            //anim.SetBool("IsDisplayed", false);
+            //}
 
-    public void Exitgame()
-    {
-        Application.Quit();
+            public void DisableBoolAnimator(Animator anim)
+            {
+                anim.SetBool("IsDisplayed", true);
+            }
+
+            public void NavigateTo(int scene)
+            {
+                Application.LoadLevel(scene);
+            }
+        }
+
+        if (trigger.gameObject.CompareTag("Environment") && !atExhibit)
+        {
+            atExhibit = false;
+
+            public void Exitgame()
+            {
+                Application.Quit();
+            }
+        }
     }
 }
