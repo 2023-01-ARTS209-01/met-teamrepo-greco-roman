@@ -685,7 +685,7 @@ GameObject:
   - component: {fileID: 248031894}
   m_Layer: 0
   m_Name: Bottom Right
-  m_TagString: Untagged
+  m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1532,7 +1532,7 @@ GameObject:
   - component: {fileID: 701425564}
   m_Layer: 0
   m_Name: Top Left 2
-  m_TagString: Untagged
+  m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2185,7 +2185,7 @@ GameObject:
   - component: {fileID: 820070056}
   m_Layer: 0
   m_Name: Right
-  m_TagString: Untagged
+  m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2518,7 +2518,7 @@ GameObject:
   - component: {fileID: 889789707}
   m_Layer: 0
   m_Name: Top Left 1
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3478,9 +3478,10 @@ GameObject:
   - component: {fileID: 1270950012}
   - component: {fileID: 1270950014}
   - component: {fileID: 1270950013}
+  - component: {fileID: 1270950015}
   m_Layer: 0
   m_Name: Bottom Left
-  m_TagString: Untagged
+  m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3578,6 +3579,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1270950015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1270950011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8256bd88f79f0d448953e4172c91b64d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 1768935385}
 --- !u!1 &1279757142
 GameObject:
   m_ObjectHideFlags: 0
@@ -4453,7 +4467,7 @@ GameObject:
   - component: {fileID: 1698943119}
   m_Layer: 0
   m_Name: Top Right
-  m_TagString: Untagged
+  m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4664,7 +4678,7 @@ GameObject:
   - component: {fileID: 1796118642}
   m_Layer: 0
   m_Name: Left
-  m_TagString: Untagged
+  m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -5,22 +5,15 @@ using UnityEngine;
 public class ImagePresenter : MonoBehaviour
 {
     private bool atRoom = false;
-    
+    public Animator anim;
+
     private void OnTriggerEnter2D(Collider2D trigger)
     {
         if (trigger.gameObject.CompareTag("Room") && atRoom)
         {
             atRoom = true;
 
-            public void DisableBoolAnimator(Animator anim)
-            {
-                anim.SetBool("IsDisplayed", false);
-            }
-
-            public void DisableBoolAnimator(Animator anim)
-            {
-                anim.SetBool("IsDisplayed", true); //Animation needs to be added.  Once added, this can be uncommented.
-            }
+            EnableBoolAnimator();
 
             //public void NavigateTo(int scene)
             //{
@@ -37,5 +30,15 @@ public class ImagePresenter : MonoBehaviour
                 Application.Quit();
             //}
         }
+    }
+
+    public void DisableBoolAnimator()
+    {
+        anim.SetBool("IsDisplayed", false);
+    }
+
+    public void EnableBoolAnimator()
+    {
+        anim.SetBool("IsDisplayed", true);
     }
 }
