@@ -5,7 +5,6 @@ using UnityEngine;
 public class ImagePresenter : MonoBehaviour
 {
     private bool atRoom = false;
-    private bool doneReading = false;
     public Animator anim;
 
     private void OnTriggerEnter2D(Collider2D trigger)
@@ -26,20 +25,20 @@ public class ImagePresenter : MonoBehaviour
     public void DisableBoolAnimator()
     {
         anim.SetBool("IsDisplayed", false);
-
-        if(gameObject.CompareTag("Environment") && doneReading)
-        {
-            anim.SetBool("IsDisplayed", false);
-        }
     }
 
     public void EnableBoolAnimator()
     {
         anim.SetBool("IsDisplayed", true);
+    }
 
-        if (gameObject.CompareTag("Environment") && !doneReading)
-        {
-            anim.SetBool("IsDisplayed", true);
-        }
+    public void showImage()
+    {
+        Time.timeScale = 0;
+    }
+
+    public void notShowImage()
+    {
+        Time.timeScale = 1;
     }
 }
