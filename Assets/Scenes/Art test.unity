@@ -512,6 +512,7 @@ GameObject:
   - component: {fileID: 117889374}
   - component: {fileID: 117889373}
   - component: {fileID: 117889375}
+  - component: {fileID: 117889376}
   m_Layer: 0
   m_Name: Bench copy
   m_TagString: Untagged
@@ -612,6 +613,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.28, y: 2.56}
   m_EdgeRadius: 0
+--- !u!50 &117889376
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 117889372}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &121232809
 GameObject:
   m_ObjectHideFlags: 0
@@ -19064,6 +19086,7 @@ GameObject:
   - component: {fileID: 261283451}
   - component: {fileID: 261283450}
   - component: {fileID: 261283449}
+  - component: {fileID: 261283452}
   m_Layer: 0
   m_Name: Bench copy (1)
   m_TagString: Untagged
@@ -19164,6 +19187,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &261283452
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261283448}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &308577996
 GameObject:
   m_ObjectHideFlags: 0
@@ -19286,6 +19330,7 @@ GameObject:
   - component: {fileID: 325929298}
   - component: {fileID: 325929297}
   - component: {fileID: 325929296}
+  - component: {fileID: 325929299}
   m_Layer: 0
   m_Name: vase copy (2)
   m_TagString: Untagged
@@ -19386,6 +19431,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &325929299
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 325929295}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &350005321
 GameObject:
   m_ObjectHideFlags: 0
@@ -19667,6 +19733,7 @@ GameObject:
   - component: {fileID: 471637805}
   - component: {fileID: 471637804}
   - component: {fileID: 471637803}
+  - component: {fileID: 471637806}
   m_Layer: 0
   m_Name: Stand copy (3)
   m_TagString: Untagged
@@ -19767,6 +19834,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &471637806
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471637802}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &502925918
 GameObject:
   m_ObjectHideFlags: 0
@@ -22901,6 +22989,7 @@ GameObject:
   - component: {fileID: 524635062}
   - component: {fileID: 524635061}
   - component: {fileID: 524635063}
+  - component: {fileID: 524635064}
   m_Layer: 0
   m_Name: tomb copy
   m_TagString: Untagged
@@ -22968,7 +23057,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 524635060}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.26, y: -4.93, z: 0}
+  m_LocalPosition: {x: 3.26, y: -4.97, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -23001,6 +23090,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 2}
   m_EdgeRadius: 0
+--- !u!50 &524635064
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 524635060}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &541381255
 GameObject:
   m_ObjectHideFlags: 0
@@ -23134,6 +23244,7 @@ GameObject:
   - component: {fileID: 555004226}
   - component: {fileID: 555004225}
   - component: {fileID: 555004227}
+  - component: {fileID: 555004228}
   m_Layer: 0
   m_Name: hero colum copy
   m_TagString: Untagged
@@ -23234,6 +23345,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 6.4, y: 12.8}
   m_EdgeRadius: 0
+--- !u!50 &555004228
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 555004224}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &560663665
 GameObject:
   m_ObjectHideFlags: 0
@@ -24149,6 +24281,7 @@ GameObject:
   - component: {fileID: 704393096}
   - component: {fileID: 704393095}
   - component: {fileID: 704393094}
+  - component: {fileID: 704393097}
   m_Layer: 0
   m_Name: vase copy (1)
   m_TagString: Untagged
@@ -24249,6 +24382,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &704393097
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 704393093}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &705384740
 GameObject:
   m_ObjectHideFlags: 0
@@ -25082,6 +25236,7 @@ GameObject:
   - component: {fileID: 825307080}
   - component: {fileID: 825307079}
   - component: {fileID: 825307081}
+  - component: {fileID: 825307082}
   m_Layer: 0
   m_Name: Tile hero
   m_TagString: Untagged
@@ -25182,6 +25337,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5.12, y: 5.12}
   m_EdgeRadius: 0
+--- !u!50 &825307082
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 825307078}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &861141105
 GameObject:
   m_ObjectHideFlags: 0
@@ -25637,6 +25813,7 @@ GameObject:
   - component: {fileID: 894778785}
   - component: {fileID: 894778784}
   - component: {fileID: 894778783}
+  - component: {fileID: 894778786}
   m_Layer: 0
   m_Name: Stand copy (4)
   m_TagString: Untagged
@@ -25737,6 +25914,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &894778786
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 894778782}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &900598850
 GameObject:
   m_ObjectHideFlags: 0
@@ -25970,6 +26168,7 @@ GameObject:
   - component: {fileID: 911896173}
   - component: {fileID: 911896172}
   - component: {fileID: 911896174}
+  - component: {fileID: 911896175}
   m_Layer: 0
   m_Name: vase copy
   m_TagString: Untagged
@@ -26070,6 +26269,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 2}
   m_EdgeRadius: 0
+--- !u!50 &911896175
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911896171}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &925889669
 GameObject:
   m_ObjectHideFlags: 0
@@ -26468,6 +26688,7 @@ GameObject:
   - component: {fileID: 1014079915}
   - component: {fileID: 1014079914}
   - component: {fileID: 1014079913}
+  - component: {fileID: 1014079916}
   m_Layer: 0
   m_Name: display copy (1)
   m_TagString: Untagged
@@ -26568,6 +26789,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &1014079916
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1014079912}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1017379892
 GameObject:
   m_ObjectHideFlags: 0
@@ -27433,6 +27675,7 @@ GameObject:
   - component: {fileID: 1137689317}
   - component: {fileID: 1137689316}
   - component: {fileID: 1137689318}
+  - component: {fileID: 1137689319}
   m_Layer: 0
   m_Name: Stand copy (2)
   m_TagString: Untagged
@@ -27533,6 +27776,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.6, y: 2.5}
   m_EdgeRadius: 0
+--- !u!50 &1137689319
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1137689315}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1153526387
 GameObject:
   m_ObjectHideFlags: 0
@@ -27735,6 +27999,7 @@ GameObject:
   - component: {fileID: 1212234501}
   - component: {fileID: 1212234500}
   - component: {fileID: 1212234499}
+  - component: {fileID: 1212234502}
   m_Layer: 0
   m_Name: Bench copy (2)
   m_TagString: Untagged
@@ -27835,6 +28100,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
+--- !u!50 &1212234502
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1212234498}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1218493656
 GameObject:
   m_ObjectHideFlags: 0
@@ -28350,6 +28636,7 @@ GameObject:
   - component: {fileID: 1278232152}
   - component: {fileID: 1278232151}
   - component: {fileID: 1278232153}
+  - component: {fileID: 1278232154}
   m_Layer: 0
   m_Name: Stand copy (1)
   m_TagString: Untagged
@@ -28450,6 +28737,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.6, y: 2.5}
   m_EdgeRadius: 0
+--- !u!50 &1278232154
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1278232150}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1279757142
 GameObject:
   m_ObjectHideFlags: 0
@@ -29577,6 +29885,7 @@ GameObject:
   - component: {fileID: 1565795250}
   - component: {fileID: 1565795249}
   - component: {fileID: 1565795251}
+  - component: {fileID: 1565795252}
   m_Layer: 0
   m_Name: display copy
   m_TagString: Untagged
@@ -29677,6 +29986,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.2, y: 1.6}
   m_EdgeRadius: 0
+--- !u!50 &1565795252
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1565795248}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1582729887
 GameObject:
   m_ObjectHideFlags: 0
@@ -30021,6 +30351,7 @@ GameObject:
   - component: {fileID: 1602168073}
   - component: {fileID: 1602168072}
   - component: {fileID: 1602168074}
+  - component: {fileID: 1602168075}
   m_Layer: 0
   m_Name: Stand copy
   m_TagString: Untagged
@@ -30121,6 +30452,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.6, y: 2.5}
   m_EdgeRadius: 0
+--- !u!50 &1602168075
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1602168071}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1616254817
 GameObject:
   m_ObjectHideFlags: 0
@@ -32058,6 +32410,7 @@ GameObject:
   - component: {fileID: 1955544947}
   - component: {fileID: 1955544946}
   - component: {fileID: 1955544948}
+  - component: {fileID: 1955544949}
   m_Layer: 0
   m_Name: head (1) copy
   m_TagString: Untagged
@@ -32105,7 +32458,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: 2093c6c2344be3e41a51997fc72cb114, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -32125,7 +32478,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1955544945}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.77, y: -8.8, z: 0}
+  m_LocalPosition: {x: -4.77, y: -8.85, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -32158,6 +32511,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 2}
   m_EdgeRadius: 0
+--- !u!50 &1955544949
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1955544945}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1966276410
 GameObject:
   m_ObjectHideFlags: 0
